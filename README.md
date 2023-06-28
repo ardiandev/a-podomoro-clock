@@ -57,7 +57,7 @@ To get started with the project, follow these steps:
 1. Clone the repository to your local machine.
 
 ```shell
-git clone https://github.com/ardiandev/a-25-5-clock-fcc.git
+git clone https://github.com/ardiandev/a-podomoro-clock
 ```
 
 2. Change to the project directory.
