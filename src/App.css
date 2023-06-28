@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 20px;
+}
+.pomodoro-container {
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  min-width: 300px;
+  border-radius: 10px;
+}
+
+#timer-container {
+  min-width: 200px;
+  min-height: 200px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  margin: 10px;
+}
+
+#time-left {
+  font-size: 50px;
+  margin: 5px;
+}
+
+#break-session-container {
+  margin-top: 10px;
+  /* border: 1px solid black; */
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+#break-btn-container,
+#session-btn-container {
+  display: flex;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin: 10px;
+}
+
+#break-btn-container button,
+#session-btn-container button {
+  padding: 3px 6px;
+  font-size: 18px;
+  background-color: red;
+  color: white;
+  border: 1px solid transparent;
+  min-width: 30px;
+  min-height: 30px;
+  border-radius: 50%;
+}
+
+#break-btn-container button:hover,
+#session-btn-container button:hover {
+  background-color: brown;
+  transform: scale(0.9);
+}
+
+#break-label,
+#session-label {
+  font-size: 15px;
+}
+
+#timer-label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#timer-btn {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+#timer-btn button {
+  padding: 4px 6px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: rgb(141, 26, 26);
+  color: white;
+}
+#timer-btn button:hover {
+  background-color: rgb(226, 41, 41);
+  transform: scale(0.9);
+}
